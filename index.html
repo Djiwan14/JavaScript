@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shokhrukh's game</title>
+</head>
+<style>
+    body {
+        width:95%;
+        height:95%;
+        font-family:sans-serif;
+        font-size:22px;
+        background-image: url('bgh.jpg');
+        background-position: 100%;
+    }
+
+    p {
+        margin-left: 35px;
+        margin-right: 35px;
+        color:beige;
+        border-style: dashed;
+    }
+
+    form {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        background-image: linear-gradient(to left, #553c9a, #b393d3);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        background-image: radial-gradient(#553c9a, #ee4b2b);
+    }
+    table,
+    tr,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    td {
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        color: azure;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .light {
+        background-color: khaki;
+    }
+
+    .backColored {
+        background-color: white;
+    }
+
+    body {
+        background-color: aquamarine;
+    }
+
+    .pos {
+        position: center;
+    }
+
+    button {
+        margin-left: 300px;
+    }
+    .black{
+        background-color: black;
+    }
+</style>
+
+<body>
+    <div id="display">
+        <h1 align="center"><b>Light bulb placement</b></h1><br>
+        <center><img src="bg.png" alt="background" width="500" height="400"></center>
+        <br>
+        <p>Once upon a time, King Unnamed of Nowhereland was both smiling and crying at the same time.
+            He was smiling because his enormous brand-new palace with many spacious rooms and corridors has just been
+            finished.
+            He is also crying as these rooms need to be illuminated and kept warm, but the ongoing increase of utility
+            costs affect him as well.
+            So now it's time to think about the placement of the palace's light bulbs.
+            We need to place them so that everything is properly lit, but we cannot install any unnecessary bulbs.</p>
+        <form align="center">
+            <label for="name">Enter your name:</label><br><br>
+            <input type="nam" id="name" name="phone" placeholder="Your name:"><br><br>
+            <!--<input type="submit">-->
+            <br>
+            <br>
+        </form>
+    </div>
+    <div id="main">
+        <table align="center">
+        </table>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
